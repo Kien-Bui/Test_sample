@@ -8,11 +8,11 @@
 
 |Màn hình|Note|
 |:--|:--|
-|Màn hình khởi động|施術客情報が読み込まれていないときに表示される画面|
-|施術待機画面（スケジュールタブ／カルテタブ）|すべての作業の作業開始時刻と作業終了時刻が共にNULLまたは共にNULLでないときに表示される画面|
-|施術中画面（スケジュールタブ／カルテタブ）|作業開始時刻がNULLでなく、作業終了時刻がNULLの作業が存在するときに表示される画面|
-|担当者操作画面|担当者名をタップしたときに表示される画面|
-|会計待機画面|すべての作業が終了したときに表示される画面|
+|Màn hình khởi động|Màn hình hiển thị khi chưa load được thông tin bệnh nhân|
+|Màn hình chờ Liệu pháp (Chia tab Schedule (スケジュール) và Bệnh án (カルテタブ))|Màn hình hiển thị khi tất cả thủ thuật có mục Ngày giờ bắt đầu thủ thuật và Ngày giờ kết thúc thủ thuật đều NULL hoặc đều không NULL|
+|Màn hình Liệu pháp đang thực hiện (Chia tab Schedule (スケジュール) và Bệnh án (カルテタブ))|Màn hình hiển thị khi có thủ thuật có mục Ngày giờ bắt đầu thủ thuật không NULL và Ngày giờ kết thúc thủ thuật NULL|
+|Màn hình chỉnh sửa Phụ trách|Màn hình hiển thị khi bấm vào tên của người phụ trách|
+|Màn hình chờ thanh toán|Màn hình hiển thị khi đã hoàn thành tất cả thủ thuật|
 
 
 ## 各画面の機能一覧
