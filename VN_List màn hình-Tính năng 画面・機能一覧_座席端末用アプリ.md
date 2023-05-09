@@ -158,30 +158,30 @@
                         <li>施術待機中 (Liệu pháp đang chờ)</li>
                         <li>施術中 (Liệu pháp đang thực hiện)</li>
                     </ul>
-                    <li>Vì nội dung この画面が表示されるのは「施術待機中」に分類されるステータスのため、「.+待機中」という表示になる</li>
-                    <li>作業が登録されていない場合は、「カウンセリング待機中」と表示する</li>
+                    <li>Vì nội dung hiển thị trên màn hình này được phân loại là Liệu pháp đang chờ nội dung hiển thị sẽ là「.+待機中」</li>
+                    <li>Trong trường hợp chưa có Thủ thuật thì hiển thị nội dung「カウンセリング待機中」</li>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>③</th>
-            <td>次のアクションを行う</td>
-            <td>ボタン</td>
+            <td>Thực hiện tiếp thao tác tiếp theo</td>
+            <td>Button</td>
             <td>
                 <ul>
-                    <li>施術客IDまたは施術IDでデータベースから施術スケジュール情報（作業一覧）を読み込み、次のアクションを表示する</li>
-                    <li>アクションは以下の3種類に分類し、色分けする</li>
-                    <ul>
-                        <li>施術客を座席に案内する</li>
-                        <li>施術開始</li>
-                        <li>施術終了</li>
+                    <li>Đọc thông tin schedule Liệu pháp (list thủ thuật) từ DB bằng ID Khách hàng hoặc bằng ID Liệu pháp, hiển thị thao tác tiếp theo</li>
+                    <li>Thao tác được chia làm 3 loại sau, phân chia màu</li>
+                <ul>
+                    <li>施術客を座席に案内する (Hướng dẫn Khách hàng tới ghế chờ)</li>
+                    <li>施術開始 (Bắt đầu Liệu pháp)</li>
+                    <li>施術終了 (Kết thúc Liệu pháp)</li>
                     </ul>
-                    <li>この画面に表示されるのは「施術開始」に分類されるアクションのため、「.+を始める」という表示になる</li>
-                    <li>タップ時は以下の処理を行う</li>
+                    <li>Vì nội dung hiển thị trên màn hình này được phân loại là Liệu pháp đang chờ nội dung hiển thị sẽ là「.+待機中」</li>
+                    <li>Khi bấm vào thì thực hiện những xử lý sau</li>
                     <ul>
-                        <li>カメラでQRコードからスタッフIDを読み込む</li>
-                        <li>データベースに作業開始時刻を記録する</li>
-                        <li>施術客IDまたは施術IDでデータベースから施術スケジュール情報（作業一覧）を読み込み、その内容に従って「施術中画面」に遷移する</li>
+                        <li>Đọc Staff ID từ QR code bằng camera</li>
+                        <li>Ghi thời gian bắt đầu Thủ thuật vào DB</li>
+                        <li>Đọc thông tin schedule Liệu pháp (list thủ thuật) từ DB bằng ID Khách hàng hoặc bằng ID Liệu pháp, chuyển sang màn hình Liệu pháp đang thực hiện theo đúng thông tin đó</li>
                     </ul>
                     <li>施術スケジュールが作成されていない（作業が登録されていない）場合は、「カウンセリングを始める」と表示する</li>
                 </ul>
