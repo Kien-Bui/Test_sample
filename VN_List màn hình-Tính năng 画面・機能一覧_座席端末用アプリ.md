@@ -158,7 +158,7 @@
                         <li>施術待機中 (Liệu pháp đang chờ)</li>
                         <li>施術中 (Liệu pháp đang thực hiện)</li>
                     </ul>
-                    <li>Vì nội dung hiển thị trên màn hình này được phân loại là Liệu pháp đang chờ nội dung hiển thị sẽ là「.+待機中」</li>
+                    <li>Vì button hiển thị trên màn hình này được phân loại là 「施術開始」 (Bắt đầu Liệu pháp), nội dung hiển thị sẽ là「.+待機中」</li>
                     <li>Trong trường hợp chưa có Thủ thuật thì hiển thị nội dung「カウンセリング待機中」</li>
                 </ul>
             </td>
