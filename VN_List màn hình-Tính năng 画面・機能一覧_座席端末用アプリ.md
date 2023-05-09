@@ -9,7 +9,7 @@
 |Màn hình|Note|
 |:--|:--|
 |Màn hình khởi động|Màn hình hiển thị khi chưa load được thông tin bệnh nhân|
-|Màn hình chờ Liệu pháp (Chia tab Schedule (スケジュール) và Bệnh án (カルテタブ))|Màn hình hiển thị khi tất cả thủ thuật có mục Ngày giờ bắt đầu thủ thuật và Ngày giờ kết thúc thủ thuật đều NULL hoặc đều không NULL|
+|Màn hình Liệu pháp đang chờ (Chia tab Schedule (スケジュール) và Bệnh án (カルテタブ))|Màn hình hiển thị khi tất cả thủ thuật có mục Ngày giờ bắt đầu thủ thuật và Ngày giờ kết thúc thủ thuật đều NULL hoặc đều không NULL|
 |Màn hình Liệu pháp đang thực hiện (Chia tab Schedule (スケジュール) và Bệnh án (カルテタブ))|Màn hình hiển thị khi có thủ thuật có mục Ngày giờ bắt đầu thủ thuật không NULL và Ngày giờ kết thúc thủ thuật NULL|
 |Màn hình chỉnh sửa Phụ trách|Màn hình hiển thị khi bấm vào tên của người phụ trách|
 |Màn hình chờ thanh toán|Màn hình hiển thị khi đã hoàn thành tất cả thủ thuật|
@@ -33,42 +33,42 @@
     <tbody>
         <tr>
             <th>①</th>
-            <td>施術客名表示</td>
-            <td>表示</td>
-            <td>情報が読み込まれていないことを明示する</td>
+            <td>Hiển thị tên các Liệu pháp</td>
+            <td>Hiển thị</td>
+            <td>Thể hiện đang không đọc thông tin nào</td>
         </tr>
         <tr>
             <th>①</th>
-            <td>作業担当者表示</td>
-            <td>表示</td>
-            <td>情報が読み込まれていないことを明示する</td>
+            <td>Hiện thị người phụ trách</td>
+            <td>Hiển thị</td>
+            <td>Thể hiện đang không đọc thông tin nào</td>
         </tr>
         <tr>
             <th>①</th>
-            <td>カルテ情報表示</td>
-            <td>表示</td>
-            <td>表示なし</td>
+            <td>Hiển thị thông tin Bệnh án</td>
+            <td>Hiển thị</td>
+            <td>Không hiển thị</td>
         </tr>
         <tr>
             <th>②</th>
-            <td>施術ステータス表示</td>
-            <td>表示</td>
+            <td>Hiển thị status Liệu pháp</td>
+            <td>Hiển thị</td>
             <td>
                 <ul>
-                    <li>「空席」と表示する</li>
-                    <li>ステータスは以下の3種類に分類し、色分けする</li>
+                    <li>Hiển thị nội dung「空席」</li>
+                    <li>Status chia làm 3 loại, phân chia màu.</li>
                     <ul>
-                        <li>空席</li>
-                        <li>施術待機中</li>
-                        <li>施術中</li>
+                        <li>空席 (Trống)</li>
+                        <li>施術待機中 (Liệu pháp đang chờ)</li>
+                        <li>施術中 (Liệu pháp đang thực hiện)</li>
                     </ul>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>③</th>
-            <td>次のアクションを行う</td>
-            <td>ボタン</td>
+            <td>Thực hiện tiếp thao tác tiếp theo</td>
+            <td>Button</td>
             <td>
             <ul>
                 <li>「お客さまを座席に案内する」と表示する</li>
