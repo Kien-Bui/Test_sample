@@ -183,17 +183,17 @@
                         <li>Ghi thời gian bắt đầu Thủ thuật vào DB</li>
                         <li>Đọc thông tin schedule Liệu pháp (list thủ thuật) từ DB bằng ID Khách hàng hoặc bằng ID Liệu pháp, chuyển sang màn hình Liệu pháp đang thực hiện theo đúng thông tin đó</li>
                     </ul>
-                    <li>施術スケジュールが作成されていない（作業が登録されていない）場合は、「カウンセリングを始める」と表示する</li>
+                    <li>Trong trường hợp chưa tạo schedule cho Liệu pháp (chưa có Thủ thuật), hiển thị nội dung「カウンセリング待機中」</li>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>④</th>
-            <td>スケジュール編集</td>
-            <td>データ操作</td>
+            <td>Edit schedule</td>
+            <td>Thao tác, thay đổi, cập nhật data</td>
             <td>
                 <ul>
-                    <li>以下のメニュー一覧を表示</li>
+                    <li>Hiển thị list menu dưới đây</li>
                     <ul>
                         <li>カウンセリング</li>
                         <li>カット</li>
@@ -206,24 +206,24 @@
                         <li>ヘアセット</li>
                         <li>マッサージ</li>
                     </ul>
-                    <li>施術客IDまたは施術IDで読み込んだ施術スケジュールを表示</li>
-                    <li>施術スケジュール内の現在作業中のメニューをハイライト表示（施術ステータスと同じ色）</li>
-                    <li>メニューをタップまたはドラッグアンドドロップで施術スケジュールを編集できる</li>
-                    <li>施術スケジュールが編集された時、その内容をデータベースに保存する</li>
+                    <li>Hiển thị schedule đã đọc được từ ID Khách hàng hoặc ID Liệu pháp</li>
+                    <li>Hiển thị highlight menu đang được thực hiện trong schedule Liệu pháp (cùng màu với status LIệu pháp)</li>
+                    <li>Có thể edit được schedule bằng cách bấm vào tên menu hoặc kéo và thả menu</li>
+                    <li>Khi schedule được edit thì lưu lại nội dung được sửa vào DB</li>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>④</th>
-            <td>カルテ編集</td>
-            <td>データ操作</td>
+            <td>Edit Hồ sơ</td>
+            <td>Thao tác, thay đổi, cập nhật data</td>
             <td>
                 <ul>
-                    <li>施術客IDで読み込んだカルテ情報を入力フォーム上に表示</li>
-                    <li>フォームが編集された時、その内容をデータベースに保存する</li>
-                    <li>カルテの内容は以下の通り</li>
+                    <li>Hiểu thị thông tin Hồ sơ đọc được từ ID Khách hàng trên form</li>
+                    <li>Khi form được edit thì lưu lại nội dung được sửa vào DB</li>
+                    <li>Nội dung Hồ sơ như sau</li>
                     <ul>
-                        <li>氏名：テキスト</li>
+                        <li>氏名：テキスト/brHọ tên:text</li>
                         <li>フリガナ：テキスト</li>
                         <li>郵便番号：テキスト</li>
                         <li>住所：テキスト</li>
