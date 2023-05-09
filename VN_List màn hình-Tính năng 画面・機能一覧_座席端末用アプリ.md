@@ -246,7 +246,7 @@
                             <li>紹介：テキスト（紹介者名）</br>Giới thiệu: text (tên người giới thiệu)</li>
                             <li>美容学生：テキスト（学校名）</br>Sinh viên trường thẩm mĩ: text (tên trường)</li>
                             <li>Google検索</br>Google search</li>
-                            <li>ホットペッパー</br>[HotPepper](https://www.hotpepper.jp/)</li>
+                            <li>ホットペッパー</br>(HotPepper)[https://www.hotpepper.jp/]</li>
                             <li>Instagram</li>
                             <li>minimo</li>
                             <li>その他SNS：テキスト</br>SNS khác</li>
