@@ -223,7 +223,7 @@
                     <li>Khi form được edit thì lưu lại nội dung được sửa vào DB</li>
                     <li>Nội dung Hồ sơ như sau</li>
                     <ul>
-                        <li>氏名：テキスト/brHọ tên:text</li>
+                        <li>氏名：テキスト</br>Họ tên:text</li>
                         <li>フリガナ：テキスト</li>
                         <li>郵便番号：テキスト</li>
                         <li>住所：テキスト</li>
