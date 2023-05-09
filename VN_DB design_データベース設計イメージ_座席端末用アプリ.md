@@ -9,10 +9,10 @@
 ```mermaid
 erDiagram
 
-"Bệnh nhân" }o--o| "Hội viên": "Bệnh nhân }o--o| Hội viên"
-"Bệnh nhân" ||--|| "Bệnh án": "Bệnh nhân ||--|| Bệnh án"
-"Hội viên" ||--|| "Bệnh án": "Hội viên ||--|| Bệnh án"
-"Bệnh nhân" ||--|| "Liệu pháp": "Bệnh nhân ||--|| Liệu pháp"
+"Khách hàng" }o--o| "Hội viên": "Khách hàng }o--o| Hội viên"
+"Khách hàng" ||--|| "Hồ sơ": "Khách hàng ||--|| Hồ sơ"
+"Hội viên" ||--|| "Hồ sơ": "Hội viên ||--|| Hồ sơ"
+"Khách hàng" ||--|| "Liệu pháp": "Khách hàng ||--|| Liệu pháp"
 "Liệu pháp" ||--o{ "Thủ thuật": "Liệu pháp ||--o{ Thủ thuật"
 "Thủ thuật" ||--|| "Menu": "Thủ thuật ||--|| Menu"
 "Thủ thuật" ||--|{ "Phụ trách": "Thủ thuật ||--|{ Phụ trách"
@@ -25,23 +25,23 @@ erDiagram
     created_at timestamp
 }
 
-"Bệnh nhân" {
+"Khách hàng" {
     id string PK
     member_id string FK
 }
 
-"Bệnh án" {
+"Hồ sơ" {
     id string PK
-    client_id string FK "ID Bệnh nhân"
+    client_id string FK "ID Khách hàng"
     member_id string FK "ID Hội viên"
     name string "Họ tên"
-    infomation1 any "Thông tin cơ bản của bệnh nhân hoặc thông tin bệnh án"
-    infomation2 any "Thông tin cơ bản của bệnh nhân hoặc thông tin bệnh án"
+    infomation1 any "Thông tin cơ bản của Khách hàng hoặc thông tin Hồ sơ"
+    infomation2 any "Thông tin cơ bản của Khách hàng hoặc thông tin Hồ sơ"
 }
 
 "Liệu pháp" {
     id string PK
-    client_id string FK "ID Bệnh nhân"
+    client_id string FK "ID Khách hàng"
     recepted_at timestamp "Ngày giờ tiếp nhận"
     will_start_at timestamp "Ngày giờ dự kiến bắt đầu"
     started_at timestamp "Ngày giờ bắt đầu"
@@ -60,7 +60,7 @@ erDiagram
     treatment_id string FK "ID Thủ thuật"
     menu_id string FK "ID Menu"
     order integer "Thứ tự"
-    started_at timestamp "Ngày giờ bắt đàu thủ thuật"
+    started_at timestamp "Ngày giờ bắt đầu thủ thuật"
     finished_at timestamp "Ngày giờ kết thúc thủ thuật"
 }
 
