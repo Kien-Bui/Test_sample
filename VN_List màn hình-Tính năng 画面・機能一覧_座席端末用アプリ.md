@@ -195,16 +195,16 @@
                 <ul>
                     <li>Hiển thị list menu dưới đây</li>
                     <ul>
-                        <li>カウンセリング</li>
-                        <li>カット</li>
-                        <li>シャンプー</li>
-                        <li>トリートメント</li>
-                        <li>眉カット</li>
-                        <li>カラー</li>
-                        <li>ブリーチ</li>
-                        <li>パーマ</li>
-                        <li>ヘアセット</li>
-                        <li>マッサージ</li>
+                        <li>カウンセリング</br>Counseling</li>
+                        <li>カット</br>Cắt</li>
+                        <li>シャンプー</br>Gội</li>
+                        <li>トリートメント</br>Dưỡng</li>
+                        <li>眉カット</br>Tỉa lông mày</li>
+                        <li>カラー</br>Nhuộm</li>
+                        <li>ブリーチ</br>Tẩy</li>
+                        <li>パーマ</br>Uốn</li>
+                        <li>ヘアセット</br>Tạo kiểu</li>
+                        <li>マッサージ</br>Massage</li>
                     </ul>
                     <li>Hiển thị schedule đã đọc được từ ID Khách hàng hoặc ID Liệu pháp</li>
                     <li>Hiển thị highlight menu đang được thực hiện trong schedule Liệu pháp (cùng màu với status LIệu pháp)</li>
@@ -223,36 +223,36 @@
                     <li>Khi form được edit thì lưu lại nội dung được sửa vào DB</li>
                     <li>Nội dung Hồ sơ như sau</li>
                     <ul>
-                        <li>氏名：テキスト</br>Họ tên:text</li>
-                        <li>フリガナ：テキスト</li>
-                        <li>郵便番号：テキスト</li>
-                        <li>住所：テキスト</li>
-                        <li>生年月日：日付</li>
-                        <li>電話番号：テキスト</li>
-                        <li>メールアドレス：テキスト</li>
-                        <li>職業：単一選択</li>
+                        <li>氏名：テキスト</br>Họ tên: text</li>
+                        <li>フリガナ：テキスト</br>Furigana: text</li>
+                        <li>郵便番号：テキスト</br>Mã bưu điện: text</li>
+                        <li>住所：テキスト</br>Địa chỉ: text</li>
+                        <li>生年月日：日付</br>Ngày sinh: ngày tháng năm</li>
+                        <li>電話番号：テキスト</br>Số điện thoại: text</li>
+                        <li>メールアドレス：テキスト</br>Địa chỉ email: text</li>
+                        <li>職業：単一選択</br>Nghề nghiệp: chọn trong list dưới đây</li>
                         <ol>
-                            <li>会社員</li>
-                            <li>学生</li>
+                            <li>会社員</br>Nhân viên văn phòng</li>
+                            <li>学生</br>Học sinh/Sinh viên</li>
                             <ul>
-                                <li>高</li>
-                                <li>大</li>
-                                <li>専</li>
+                                <li>高</br>Cấp 3</li>
+                                <li>大</br>Đại học</li>
+                                <li>専</br>Trường nghề</li>
                             </ul>
-                            <li>その他：テキスト</li>
+                            <li>その他：テキスト</br>Khác: nhập text</li>
                         </ol>
-                        <li>店を知ったきっかけ：単一選択</li>
+                        <li>店を知ったきっかけ：単一選択</br>Cách biết tới tiệm: chọn trong list dưới đây</li>
                         <ol>
-                            <li>紹介：テキスト（紹介者名）</li>
-                            <li>美容学生：テキスト（学校名）</li>
-                            <li>Google検索</li>
-                            <li>ホットペッパー</li>
+                            <li>紹介：テキスト（紹介者名）</br>Giới thiệu: text (tên người giới thiệu)</li>
+                            <li>美容学生：テキスト（学校名）</br>Sinh viên trường thẩm mĩ: text (tên trường)</li>
+                            <li>Google検索</br>Google search</li>
+                            <li>ホットペッパー</br>[HotPepper](https://www.hotpepper.jp/)</li>
                             <li>Instagram</li>
                             <li>minimo</li>
-                            <li>その他SNS：テキスト</li>
-                            <li>ホームページ</li>
-                            <li>チラシ</li>
-                            <li>通りすがり</li>
+                            <li>その他SNS：テキスト</br>SNS khác</li>
+                            <li>ホームページ</br>Website của tiệm</li>
+                            <li>チラシ</br>Tờ rơi</li>
+                            <li>通りすがり</br>Đi qua</li>
                         </ol>
                         <li>サロン内での過ごし方：複数選択</li>
                         <ol>
