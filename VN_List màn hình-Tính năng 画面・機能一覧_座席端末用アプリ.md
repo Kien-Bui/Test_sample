@@ -15,19 +15,19 @@
 |Màn hình chờ thanh toán|Màn hình hiển thị khi đã hoàn thành tất cả thủ thuật|
 
 
-## 各画面の機能一覧
+## List tính năng theo màn hình
 
-### スタート画面
+### Màn hình khởi động
 
 ![スタート画面.png](./attachments/スタート画面.png)
 
 <table>
     <thead>
         <tr>
-            <th>エリア</th>
-            <th>機能</th>
-            <th>分類</th>
-            <th>説明</th>
+            <th>Area</th>
+            <th>Tính năng</th>
+            <th>Phân loại</th>
+            <th>Giải thích</th>
         </tr>
     </thead>
     <tbody>
@@ -113,10 +113,10 @@
 <table>
     <thead>
         <tr>
-            <th>エリア</th>
-            <th>機能</th>
-            <th>分類</th>
-            <th>説明</th>
+            <th>Area</th>
+            <th>Tính năng</th>
+            <th>Phân loại</th>
+            <th>Giải thích</th>
         </tr>
     </thead>
     <tbody>
@@ -384,10 +384,10 @@
 <table>
     <thead>
         <tr>
-            <th>エリア</th>
-            <th>機能</th>
-            <th>分類</th>
-            <th>説明</th>
+            <th>Area</th>
+            <th>Tính năng</th>
+            <th>Phân loại</th>
+            <th>Giải thích</th>
         </tr>
     </thead>
     <tbody>
@@ -662,10 +662,10 @@
 <table>
     <thead>
         <tr>
-            <th>エリア</th>
-            <th>機能</th>
-            <th>分類</th>
-            <th>説明</th>
+            <th>Area</th>
+            <th>Tính năng</th>
+            <th>Phân loại</th>
+            <th>Giải thích</th>
         </tr>
     </thead>
     <tbody>
@@ -723,10 +723,10 @@
 <table>
     <thead>
         <tr>
-            <th>エリア</th>
-            <th>機能</th>
-            <th>分類</th>
-            <th>説明</th>
+            <th>Area</th>
+            <th>Tính năng</th>
+            <th>Phân loại</th>
+            <th>Giải thích</th>
         </tr>
     </thead>
     <tbody>
