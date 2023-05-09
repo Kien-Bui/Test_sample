@@ -71,33 +71,33 @@
             <td>Button</td>
             <td>
             <ul>
-                <li>「お客さまを座席に案内する」と表示する</li>
-                <li>アクションは以下の3種類に分類し、色分けする</li>
+                <li>Hiển thị nội dung「お客さまを座席に案内する」</li>
+                <li>Thao tác được chia làm 3 loại sau, phân chia màu</li>
                 <ul>
-                    <li>施術客を座席に案内する</li>
-                    <li>施術開始</li>
-                    <li>施術終了</li>
+                    <li>施術客を座席に案内する (Hướng dẫn Bệnh nhân tới ghế chờ)</li>
+                    <li>施術開始 (Bắt đầu Liệu pháp)</li>
+                    <li>施術終了 (Kết thúc Liệu pháp)</li>
                 </ul>
-                <li>タップ時は以下の処理を行う</li>
+                <li>Khi bấm vào thì thực hiện những xử lý sau</li>
                 <ul>
-                    <li>カメラでQRコードから施術客IDを読み込む</li>
-                    <li>データベースに施術開始時刻を記録する</li>
-                    <li>施術待機画面に遷移する</li>
+                    <li>Đọc ID Liệu pháp từ QR code bằng camera</li>
+                    <li>Ghi thời gian bắt đầu Liệu pháp vào DB</li>
+                    <li>Chuyển tới màn hình Liệu pháp đang chờ</li>
                 </ul>
             </ul>
             </td>
         </tr>
         <tr>
             <th>④</th>
-            <td>スケジュール編集</td>
-            <td>データ操作</td>
-            <td>表示なしまたは操作不能表示</td>
+            <td>Edit schedule</td>
+            <td>Thao tác, thay đổi, cập nhật data</td>
+            <td>Không hiển thị hoặc thể hiện không thể edit được</td>
         </tr>
         <tr>
             <th>④</th>
-            <td>カルテ編集</td>
-            <td>データ操作</td>
-            <td>表示なしまたは操作不能表示</td>
+            <td>Edit Bệnh án</td>
+            <td>Thao tác, thay đổi, cập nhật data</td>
+            <td>Không hiển thị hoặc thể hiện không thể edit được</td>
         </tr>
     </tbody>
 </table>
