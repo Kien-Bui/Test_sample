@@ -8,9 +8,9 @@
 
 |Màn hình|Note|
 |:--|:--|
-|Màn hình khởi động|Màn hình hiển thị khi chưa load được thông tin bệnh nhân|
-|Màn hình Liệu pháp đang chờ (Chia tab Schedule (スケジュール) và Bệnh án (カルテタブ))|Màn hình hiển thị khi tất cả thủ thuật có mục Ngày giờ bắt đầu thủ thuật và Ngày giờ kết thúc thủ thuật đều NULL hoặc đều không NULL|
-|Màn hình Liệu pháp đang thực hiện (Chia tab Schedule (スケジュール) và Bệnh án (カルテタブ))|Màn hình hiển thị khi có thủ thuật có mục Ngày giờ bắt đầu thủ thuật không NULL và Ngày giờ kết thúc thủ thuật NULL|
+|Màn hình khởi động|Màn hình hiển thị khi chưa load được thông tin Khách hàng|
+|Màn hình Liệu pháp đang chờ (Chia tab Schedule (スケジュール) và Hồ sơ (カルテタブ))|Màn hình hiển thị khi tất cả thủ thuật có mục Ngày giờ bắt đầu thủ thuật và Ngày giờ kết thúc thủ thuật đều NULL hoặc đều không NULL|
+|Màn hình Liệu pháp đang thực hiện (Chia tab Schedule (スケジュール) và Hồ sơ (カルテタブ))|Màn hình hiển thị khi có thủ thuật có mục Ngày giờ bắt đầu thủ thuật không NULL và Ngày giờ kết thúc thủ thuật NULL|
 |Màn hình chỉnh sửa Phụ trách|Màn hình hiển thị khi bấm vào tên của người phụ trách|
 |Màn hình chờ thanh toán|Màn hình hiển thị khi đã hoàn thành tất cả thủ thuật|
 
@@ -45,7 +45,7 @@
         </tr>
         <tr>
             <th>①</th>
-            <td>Hiển thị thông tin Bệnh án</td>
+            <td>Hiển thị thông tin Hồ sơ</td>
             <td>Hiển thị</td>
             <td>Không hiển thị</td>
         </tr>
@@ -74,7 +74,7 @@
                 <li>Hiển thị nội dung「お客さまを座席に案内する」</li>
                 <li>Thao tác được chia làm 3 loại sau, phân chia màu</li>
                 <ul>
-                    <li>施術客を座席に案内する (Hướng dẫn Bệnh nhân tới ghế chờ)</li>
+                    <li>施術客を座席に案内する (Hướng dẫn Khách hàng tới ghế chờ)</li>
                     <li>施術開始 (Bắt đầu Liệu pháp)</li>
                     <li>施術終了 (Kết thúc Liệu pháp)</li>
                 </ul>
@@ -95,7 +95,7 @@
         </tr>
         <tr>
             <th>④</th>
-            <td>Edit Bệnh án</td>
+            <td>Edit Hồ sơ</td>
             <td>Thao tác, thay đổi, cập nhật data</td>
             <td>Không hiển thị hoặc thể hiện không thể edit được</td>
         </tr>
@@ -104,7 +104,7 @@
 
 <div style="page-break-before:always"></div>
 
-### 施術待機画面（スケジュールタブ／カルテタブ）
+### Màn hình Liệu pháp đang chờ (Chia tab Schedule (スケジュール) và Hồ sơ (カルテタブ))
 
 ![施術待機画面（スケジュールタブ）.png](./attachments/施術待機画面（スケジュールタブ）.png)
 
@@ -122,43 +122,43 @@
     <tbody>
         <tr>
             <th>①</th>
-            <td>施術客名表示</td>
-            <td>表示</td>
-            <td>施術客IDでデータベースから施術客情報を読み込み、その施術客名を表示する</td>
+            <td>Hiển thị tên Khách hàng</td>
+            <td>Hiển thị</td>
+            <td>Đọc thông tin Khách hàng từ DB bằng ID Khách hàng, hiển thị tên của Khách hàng tương ứng</td>
         </tr>
         <tr>
             <th>①</th>
-            <td>作業担当者表示・編集</td>
-            <td>表示・ボタン</td>
-            <td>担当者が登録されていないことを明示する</td>
+            <td>Hiển thị, edit người phụ trách thủ thuật</td>
+            <td>Hiển thị/Button</td>
+            <td>Biểu hiện chưa có thông tin người phụ trách</td>
         </tr>
         <tr>
             <th>①</th>
-            <td>カルテ情報表示</td>
-            <td>表示</td>
+            <td>Hiển thị thông tin Hồ sơ</td>
+            <td>Hiển thị</td>
             <td>
                 <ul>
-                    <li>施術客IDでデータベースからカルテ情報を読み込み、以下の情報をアイコンで表示する</li>
+                    <li>Đọc thông tin Khách hàng từ DB bằng ID Khách hàng, hiển thị nhưng thông tin dưới đây bằng icon</li>
                     <ul>
-                        <li>サロン内での過ごし方</li>
+                        <li>Trải nghiệm trong salon</li>
                     </ul>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>②</th>
-            <td>施術ステータス表示</td>
-            <td>表示</td>
+            <td>Hiển thị Liệu pháp</td>
+            <td>Hiển thị</td>
             <td>
                 <ul>
-                    <li>施術客IDまたは施術IDでデータベースから施術スケジュール情報（作業一覧）を読み込み、現在のステータスを表示する</li>
-                    <li>ステータスは以下の3種類に分類し、色分けする</li>
+                    <li>Đọc thông tin schedule Liệu pháp (list thủ thuật) từ DB bằng ID Khách hàng hoặc bằng ID Liệu pháp, hiển thị status hiện tại</li>
+                    <li>Status chia làm 3 loại sau, phân chia màu</li>
                     <ul>
-                        <li>空席</li>
-                        <li>施術待機中</li>
-                        <li>施術中</li>
+                        <li>空席 (Trống)</li>
+                        <li>施術待機中 (Liệu pháp đang chờ)</li>
+                        <li>施術中 (Liệu pháp đang thực hiện)</li>
                     </ul>
-                    <li>この画面が表示されるのは「施術待機中」に分類されるステータスのため、「.+待機中」という表示になる</li>
+                    <li>Vì nội dung この画面が表示されるのは「施術待機中」に分類されるステータスのため、「.+待機中」という表示になる</li>
                     <li>作業が登録されていない場合は、「カウンセリング待機中」と表示する</li>
                 </ul>
             </td>
@@ -375,7 +375,7 @@
 
 <div style="page-break-before:always"></div>
 
-### 施術中画面（スケジュールタブ／カルテタブ）
+### Màn hình Liệu pháp đang thực hiện (Chia tab Schedule (スケジュール) và Hồ sơ (カルテタブ))
 
 ![施術中画面（スケジュールタブ）.png](./attachments/施術中画面（スケジュールタブ）.png)
 
@@ -655,7 +655,7 @@
 
 <div style="page-break-before:always"></div>
 
-### 担当者操作画面
+### Màn hình chỉnh sửa Phụ trách
 
 ![担当者操作画面.png](./attachments/担当者操作画面.png)
 
@@ -716,7 +716,7 @@
 
 <div style="page-break-before:always"></div>
 
-### 会計待機画面
+### Màn hình chờ thanh toán
 
 ![会計待機画面.png](./attachments/会計待機画面.png)
 
