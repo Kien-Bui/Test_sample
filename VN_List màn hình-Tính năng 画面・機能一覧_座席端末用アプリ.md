@@ -671,42 +671,42 @@
     <tbody>
         <tr>
             <th>①</th>
-            <td>担当者の追加</td>
-            <td>ボタン</td>
+            <td>Bổ sung người phụ trách</td>
+            <td>Button</td>
             <td>
                 <ul>
-                    <li>タップ時は以下の操作を行う</li>
+                    <li>Khi tap sẽ thực hiện thao tác dưới đây.</li>
                     <ul>
-                        <li>カメラでQRコードからスタッフIDを読み込む</li>
-                        <li>作業担当者としてスタッフIDと担当開始時刻をデータベースに保存する</li>
+                        <li>Scan Staff ID từ mã QR bằng camera</li>
+                        <li>Lưu staff ID và thời gian bắt đầu phục trách là người phụ trách công việc vào data base</li>
                     </ul>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>①</th>
-            <td>担当者の変更</td>
-            <td>ボタン</td>
+            <td>Thay đổi người phụ trách</td>
+            <td>Button</td>
             <td>
                 <ul>
-                    <li>タップ時は以下の操作を行う</li>
+                    <li>Khi tap sẽ thực hiện thao tác như dưới đây.</li>
                     <ul>
-                        <li>タップされた作業担当者に担当終了時刻を追加してデータベースを更新する</li>
-                        <li>カメラでQRコードからスタッフIDを読み込む</li>
-                        <li>作業担当者としてスタッフIDと担当開始時刻をデータベースに保存する</li>
+                        <li>Thêm thời gian kết thúc phụ trách vào người phụ trách công việc đã tap rồi update database</li>
+                        <li>Scan staff ID từ mã QR bằng camera</li>
+                        <li>Lưu staff ID và thời gian bắt đầu phục trách là người phụ trách công việc vào data base</li>
                     </ul>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>①</th>
-            <td>担当者の削除</td>
-            <td>ボタン</td>
+            <td>Xóa người phụ trách</td>
+            <td>Button</td>
             <td>
                 <ul>
-                    <li>タップ時は以下の操作を行う</li>
+                    <li>Khi tap sẽ thực hiện thao tác như dưới đây.</li>
                     <ul>
-                        <li>タップされた作業担当者に担当終了時刻を追加してデータベースを更新する</li>
+                        <li>Thêm thời gian kết thúc phụ trách vào người phụ trách công việc đã tap rồi update database</li>
                     </ul>
                 </ul>
             </td>
@@ -732,196 +732,196 @@
     <tbody>
         <tr>
             <th>①</th>
-            <td>施術客名表示</td>
-            <td>表示</td>
-            <td>施術客IDでデータベースから施術客情報を読み込み、その施術客名を表示する</td>
+            <td>Hiển thị tên khách hàng</td>
+            <td>Hiển thị</td>
+            <td>Đọc thông tin khách hàng từ data base bằng ID khách hàng, và cho hiển thị tên khách hàng</td>
         </tr>
         <tr>
             <th>①</th>
-            <td>作業担当者表示・編集</td>
-            <td>表示・ボタン</td>
-            <td>担当者が登録されていないことを明示する</td>
+            <td>Hiển thị・Edit người phụ trách công việc</td>
+            <td>Hiển thị・Button</td>
+            <td>Trình bày rõ người phụ trách chưa được đăng kí</td>
         </tr>
         <tr>
             <th>①</th>
-            <td>カルテ情報表示</td>
-            <td>表示</td>
+            <td>Hiển thị thông tin bệnh án</td>
+            <td>Hiển thị</td>
             <td>
                 <ul>
-                    <li>施術客IDでデータベースからカルテ情報を読み込み、以下の情報をアイコンで表示する</li>
+                    <li>Đọc thông tin bệnh án từ data base bằng ID khách hàng, sau đó hiển thị thông tin dưới đây dưới dạng icon</li>
                     <ul>
-                        <li>サロン内での過ごし方</li>
+                        <li>Cách dành thời gian ở salon</li>
                     </ul>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>②</th>
-            <td>施術ステータス表示</td>
-            <td>表示</td>
+            <td>Hiển thị status liệu pháp</td>
+            <td>Hiển thị</td>
             <td>
                 <ul>
-                    <li>「会計待機中」と表示する</li>
-                    <li>ステータスは以下の3種類に分類し、色分けする</li>
+                    <li>HIển thị「会計待機中」(đang đợi thanh toán)</li>
+                    <li>Status sẽ được phân làm 3 loại như dưới đây và được phân màu</li>
                     <ul>
-                        <li>空席</li>
-                        <li>施術待機中</li>
-                        <li>施術中</li>
+                        <li>空席(trống)</li>
+                        <li>施術待機中(Đang đợi thực hiện liệu pháp)</li>
+                        <li>施術中(Đang thực hiện liệu pháp)</li>
                     </ul>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>③</th>
-            <td>次のアクションを行う</td>
-            <td>ボタン</td>
+            <td>Thực hiện action tiếp theo</td>
+            <td>Button</td>
             <td>
                 <ul>
-                    <li>「作業を終了して会計に進む」と表示する</li>
-                    <li>アクションは以下の3種類に分類し、色分けする</li>
+                    <li>Hiển thị「作業を終了して会計に進む」(Kết thúc liệu pháp, tiếp tục thanh toán)</li>
+                    <li>Action sẽ được phân làm 3 loại như dưới đây, và được phân màu</li>
                     <ul>
-                        <li>施術客を座席に案内する</li>
-                        <li>施術開始</li>
-                        <li>施術終了</li>
+                        <li>施術客を座席に案内する(Dẫn khách hàng vào chỗ ngồi)</li>
+                        <li>施術開始(Bắt đầu liệu pháp)</li>
+                        <li>施術終了(Kết thúc liệu pháp)</li>
                     </ul>
-                    <li>タップ時は以下の処理を行う</li>
+                    <li>Khi tap sẽ thực hiện xử lý như dưới đây</li>
                     <ul>
-                        <li>データベースに施術終了時刻を記録する</li>
-                        <li>「スタート画面」に遷移する</li>
+                        <li>Đăng kí thời gian kết thúc liệu pháp vào data base</li>
+                        <li>Di chuyển sang「スタート画面」(màn start)</li>
                     </ul>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>④</th>
-            <td>スケジュール編集</td>
-            <td>データ操作</td>
+            <td>Edit schedule</td>
+            <td>Thao tác với data</td>
             <td>
                 <ul>
-                    <li>以下のメニュー一覧を表示</li>
+                    <li>Hiển thị menu list dưới đây</li>
                     <ul>
-                        <li>カウンセリング</li>
-                        <li>カット</li>
-                        <li>シャンプー</li>
-                        <li>トリートメント</li>
-                        <li>眉カット</li>
-                        <li>カラー</li>
-                        <li>ブリーチ</li>
-                        <li>パーマ</li>
-                        <li>ヘアセット</li>
-                        <li>マッサージ</li>
+                        <li>カウンセリング(tư vấn)</li>
+                        <li>カット(Cut)</li>
+                        <li>シャンプー(shampoo)</li>
+                        <li>トリートメント(Treatment)</li>
+                        <li>眉カット(Eyebrows cut)</li>
+                        <li>カラー(color)</li>
+                        <li>ブリーチ(Bleach-Tẩy)</li>
+                        <li>パーマ(Palmer- làm xoăn)</li>
+                        <li>ヘアセット(haircut)</li>
+                        <li>マッサージ(massage)</li>
                     </ul>
-                    <li>施術客IDまたは施術IDで読み込んだ施術スケジュールを表示</li>
-                    <li>施術スケジュール内の現在作業中のメニューをハイライト表示（施術ステータスと同じ色）</li>
-                    <li>メニューをタップまたはドラッグアンドドロップで施術スケジュールを編集できる</li>
-                    <li>施術スケジュールが編集された時、その内容をデータベースに保存する</li>
+                    <li>Hiển thị schedule liệu pháp đã đọc bằng ID khách hàng or ID liệu pháp)</li>
+                    <li>Hiển thị highlight menu hiện đang thực hiện liệu pháp trong schedule liệu pháp（Cùng màu với status liệu pháp）</li>
+                    <li>Có thể edit schedule liệu pháp bằng cách tap vào menu or drap&drop</li>
+                    <li>Sau khi Schedule liệu pháp được update, lưu ND đó vào trong data base</li>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>④</th>
-            <td>カルテ編集</td>
-            <td>データ操作</td>
+            <td>Edit bệnh án</td>
+            <td>Thao tác với data</td>
             <td>
                 <ul>
-                    <li>施術客IDで読み込んだカルテ情報を入力フォーム上に表示</li>
-                    <li>フォームが編集された時、その内容をデータベースに保存する</li>
-                    <li>カルテの内容は以下の通り</li>
+                    <li>Hiển thị thông tin bệnh án đã đọc bằng ID khách hàng lên form nhập</li>
+                    <li>Sau khi form được edit, lưu ND đó vào data base</li>
+                    <li>ND bệnh án như dưới đây</li>
                     <ul>
-                        <li>氏名：テキスト</li>
-                        <li>フリガナ：テキスト</li>
-                        <li>郵便番号：テキスト</li>
-                        <li>住所：テキスト</li>
-                        <li>生年月日：日付</li>
-                        <li>電話番号：テキスト</li>
-                        <li>メールアドレス：テキスト</li>
-                        <li>職業：単一選択</li>
+                        <li>氏名(tên)：Text</li>
+                        <li>フリガナ(furigana)：Text</li>
+                        <li>郵便番号(mã số ngân hàng)：Text</li>
+                        <li>住所(địa chỉ)：Text</li>
+                        <li>生年月日(Ngày tháng năm sinh)：Ngày tháng</li>
+                        <li>電話番号(số điện thoại)：Text</li>
+                        <li>メールアドレス(địa chỉ mail)：text</li>
+                        <li>職業(nghề nghiệp)：Lựa chọn duy nhất</li>
                         <ol>
-                            <li>会社員</li>
-                            <li>学生</li>
+                            <li>会社員(Nhân viên công ty)</li>
+                            <li>学生(học sinh)</li>
                             <ul>
-                                <li>高</li>
-                                <li>大</li>
-                                <li>専</li>
+                                <li>高(cấp 3)</li>
+                                <li>大(Đại học)</li>
+                                <li>専(senmon)</li>
                             </ul>
-                            <li>その他：テキスト</li>
+                            <li>その他(Khác)：Text</li>
                         </ol>
-                        <li>店を知ったきっかけ：単一選択</li>
+                        <li>店を知ったきっかけ(Lí do biết đến cửa hàng)：Chọn duy nhất</li>
                         <ol>
-                            <li>紹介：テキスト（紹介者名）</li>
-                            <li>美容学生：テキスト（学校名）</li>
-                            <li>Google検索</li>
-                            <li>ホットペッパー</li>
+                            <li>紹介(Giới thiệu)：Text（Tên người giới thiệu）</li>
+                            <li>美容学生(Học sinh học nghề) ：text（Tên trường）</li>
+                            <li>Google検索(tìm kiếm trên GG)</li>
+                            <li>ホットペッパー<(Hotpepper)/li>
                             <li>Instagram</li>
                             <li>minimo</li>
-                            <li>その他SNS：テキスト</li>
-                            <li>ホームページ</li>
-                            <li>チラシ</li>
-                            <li>通りすがり</li>
+                            <li>その他SNS(SNS khác)：Text</li>
+                            <li>ホームページ(homepage)</li>
+                            <li>チラシ(tờ rơi)</li>
+                            <li>通りすがり(tình cờ)</li>
                         </ol>
-                        <li>サロン内での過ごし方：複数選択</li>
+                        <li>サロン内での過ごし方(Các cách muốn trải nghiệm trong salon)：Chọn nhiều đáp án</li>
                         <ol>
-                            <li>なるべく会話は控えたい</li>
-                            <li>スタッフとの会話を楽しみたい</li>
-                            <li>タブレット端末でデジタル雑誌を読みたい</li>
-                            <li>ご自身のスマホを利用したい</li>
-                            <li>施術内容についての説明を聞きたい</li>
+                            <li>なるべく会話は控えたい(Muốn hạn chế trò chuyện)</li>
+                            <li>スタッフとの会話を楽しみたい(Muốn trò truyện vui vẻ với staff)</li>
+                            <li>タブレット端末でデジタル雑誌を読みたい(Muốn đọc tạp chí điện tử trên tablet)</li>
+                            <li>ご自身のスマホを利用したい(Muốn dùng smartphone của mình)</li>
+                            <li>施術内容についての説明を聞きたい(Muốn nghe miêu tả về ND liệu pháp)</li>
                         </ol>
-                        <li>シャンプーやヘッドスパでの力加減：単一選択</li>
+                        <li>シャンプーやヘッドスパでの力加減(Mức độ lực khi gội đầu và massage đầu)：Chọn duy nhất</li>
                         <ol>
-                            <li>強め</li>
-                            <li>やや強め</li>
-                            <li>普通</li>
-                            <li>やや弱め</li>
-                            <li>弱め</li>
-                            <li>その都度確認してほしい</li>
+                            <li>強め(mạnh)</li>
+                            <li>やや強め(hơi mạnh)</li>
+                            <li>普通(bình thường)</li>
+                            <li>やや弱め(hơi nhẹ)</li>
+                            <li>弱め<(nhẹ)/li>
+                            <li>その都度確認してほしい(Muốn staff xác nhận mỗi lần)</li>
                         </ol>
-                        <li>今までの美容室で気になったこと：複数選択</li>
+                        <li>今までの美容室で気になったこと(Những điểm quan tâm ở salon cho đến hiện tại)：Chọn nhiều</li>
                         <ol>
-                            <li>仕上がり</li>
-                            <li>技術</li>
-                            <li>接客</li>
-                            <li>施術時間</li>
-                            <li>店内の清潔さ</li>
-                            <li>その他：テキスト</li>
+                            <li>仕上がり(trạng thái hoàn thành)</li>
+                            <li>技術(Kỹ thuật)</li>
+                            <li>接客(tiếp khách)</li>
+                            <li>施術時間(thời gian của liệu pháp)</li>
+                            <li>店内の清潔さ(Sự sạch sẽ trong salon)</li>
+                            <li>その他(khác)：Text</li>
                         </ol>
-                        <li>なりたいイメージ：複数選択</li>
+                        <li>なりたいイメージ(Image muốn trở thành)：Chọn nhiều</li>
                         <ol>
-                            <li>かわいい</li>
-                            <li>ナチュラル</li>
-                            <li>モテ、愛され</li>
-                            <li>かっこいい</li>
-                            <li>大人っぽく</li>
-                            <li>似合うようにしてほしい</li>
+                            <li>かわいい(dễ thương)</li>
+                            <li>ナチュラル(tự nhiên)</li>
+                            <li>モテ、愛され(model)</li>
+                            <li>かっこいい(cool)</li>
+                            <li>大人っぽく(trưởng thành)</li>
+                            <li>似合うようにしてほしい(muốn làm sao cho hợp)</li>
                         </ol>
-                        <li>髪についての悩み：複数選択</li>
+                        <li>髪についての悩み(Trăn trở về tóc)：Chọn nhiều</li>
                         <ol>
-                            <li>ダメージ</li>
-                            <li>カラーの色持ち</li>
-                            <li>パーマの持ち</li>
+                            <li>ダメージ(damage)</li>
+                            <li>カラーの色持ち(giữ màu)</li>
+                            <li>パーマの持ち(giữ độ xoăn)</li>
                             <li>クセや広がり</li>
-                            <li>ボリュームが出にくい</li>
-                            <li>ホームケアの仕方</li>
-                            <li>スタイリングの仕方</li>
-                            <li>その他：テキスト</li>
+                            <li>ボリュームが出にくい(Tóc khó bồng) </li>
+                            <li>ホームケアの仕方(cách chăm sóc tóc tại nhà)</li>
+                            <li>スタイリングの仕方(cách tạo kiểu)</li>
+                            <li>その他(khác)：Text</li>
                         </ol>
-                        <li>当日の仕上がりイメージ：テキスト</li>
-                        <li>施術履歴：データベースから</li>
-                        <li>過去半年以内に行った施術：複数選択</li>
+                        <li>当日の仕上がりイメージ(Image trạng thái hoàn thành hôm nay)：Text</li>
+                        <li>施術履歴(lịch sử thực hiện liệu pháp)：Từ data base</li>
+                        <li>過去半年以内に行った施術(Liệu pháp đã thực hiện trong vòng 6 tháng năm ngoái)：Chọn nhiều</li>
                         <ol>
-                            <li>黒染め</li>
-                            <li>ブリーチ</li>
-                            <li>縮毛矯正</li>
-                            <li>デジタルパーマ</li>
-                            <li>ストレートパーマ</li>
+                            <li>黒染め(Nhuộm đen)</li>
+                            <li>ブリーチ(Tẩy)</li>
+                            <li>縮毛矯正(Duỗi tóc)</li>
+                            <li>デジタルパーマ(làm xoăn kỹ thuật số)</li>
+                            <li>ストレートパーマ(xoăn thẳng)</li>
                         </ol>
-                        <li>希望の仕上がり時間：単一選択</li>
+                        <li>希望の仕上がり時間(thời gian hoàn thành mong muốn)：Chọn duy nhất</li>
                         <ol>
-                            <li>急いでいる：時刻（希望終了時刻）</li>
-                            <li>急いでいないが希望がある：時刻（希望終了時刻）</li>
-                            <li>特にない</li>
+                            <li>急いでいる(Đang vội)：Thời gian（Thời gian mong muốn hoàn thành）</li>
+                            <li>急いでいないが希望がある(Tuy không vội nhưng có mong muốn) ：Thời gian（Thời gian mong muốn hoàn thành）</li>
+                            <li>特にない(không vội)</li>
                         </ol>
-                        <li>施術メニュー以外に興味のあるメニュー：複数選択</li>
+                        <li>施術メニュー以外に興味のあるメニュー(Menu có hứng thú ngoài menu liệu pháp)：Chọn nhiều</li>
                         <ol>
                             <li>カット</li>
                             <li>カラー</li>
@@ -934,18 +934,18 @@
                             <li>眉カット</li>
                             <li>その他：テキスト</li>
                         </ol>
-                        <li>おすすめ商品の紹介を希望するか：単一選択</li>
+                        <li>おすすめ商品の紹介を希望するか(Có nguyện vọng được giới tiệu sản phẩm recommend không)：Chọn duy nhất</li>
                         <ol>
                             <li>はい</li>
                             <li>いいえ</li>
                         </ol>
-                        <li>自宅でのヘアケアについて：単一選択</li>
+                        <li>自宅でのヘアケアについて(Về chăm sóc tóc tại gia)：Chọn duy nhất</li>
                         <ol>
                             <li>サロンで購入したもの</li>
                             <li>市販のもの</li>
                             <li>特にしていない</li>
                         </ol>
-                        <li>利用しているSNS：複数選択</li>
+                        <li>利用しているSNS(SNS đang dùng)：Chọn nhiều</li>
                         <ol>
                             <li>Instagram</li>
                             <li>Twitter</li>
@@ -954,23 +954,23 @@
                             <li>Facebook</li>
                             <li>YouTube</li>
                             <li>Clubhouse</li>
-                            <li>その他：テキスト</li>
+                            <li>その他(khác)：Text</li>
                         </ol>
-                        <li>その他の要望：テキストエリア</li>
-                        <li>管理用メモ：テキストエリア</li>
+                        <li>その他の要望(nguyện vọng khác)：Text area</li>
+                        <li>管理用メモ(memo dùng để quản lý)：Text area</li>
                     </ul>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>⑤</th>
-            <td>スタートに戻る</td>
-            <td>ボタン</td>
+            <td>Quay lại start</td>
+            <td>Button</td>
             <td>
                 <ul>
-                    <li>タップ時は以下の処理を行う</li>
+                    <li>Khi tap sẽ thực hiện xử lý dưới đây</li>
                     <ul>
-                        <li>ホーム画面に遷移する</li>
+                        <li>Di chuyển đến màn HOME</li>
                     </ul>
                 </ul>
             </td>
