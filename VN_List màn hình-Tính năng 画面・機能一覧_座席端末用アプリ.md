@@ -249,98 +249,98 @@
                             <li>ホットペッパー</br>(HotPepper)[https://www.hotpepper.jp/]</li>
                             <li>Instagram</li>
                             <li>minimo</li>
-                            <li>その他SNS：テキスト</br>SNS khác</li>
+                            <li>その他SNS：テキスト</br>SNS khác: nhập text</li>
                             <li>ホームページ</br>Website của tiệm</li>
                             <li>チラシ</br>Tờ rơi</li>
                             <li>通りすがり</br>Đi qua</li>
                         </ol>
-                        <li>サロン内での過ごし方：複数選択</li>
+                        <li>サロン内での過ごし方：複数選択</br>Trải nghiệm trong salon</li>
                         <ol>
-                            <li>なるべく会話は控えたい</li>
-                            <li>スタッフとの会話を楽しみたい</li>
-                            <li>タブレット端末でデジタル雑誌を読みたい</li>
-                            <li>ご自身のスマホを利用したい</li>
-                            <li>施術内容についての説明を聞きたい</li>
+                            <li>なるべく会話は控えたい</br>Muốn tránh nói chuyện nhiều nhất có thể</li>
+                            <li>スタッフとの会話を楽しみたい</br>Muốn nói chuyện cùng các staff</li>
+                            <li>タブレット端末でデジタル雑誌を読みたい</br>Muốn đọc tạp chí trên tablet</li>
+                            <li>ご自身のスマホを利用したい</br>Muốn sử dụng smartphone của bản thân</li>
+                            <li>施術内容についての説明を聞きたい</br>Muốn nghe giải thích về nội dung liệu pháp</li>
                         </ol>
-                        <li>シャンプーやヘッドスパでの力加減：単一選択</li>
+                        <li>シャンプーやヘッドスパでの力加減：単一選択</br>Mức độ dùng sức mong muốn khi gội, ấp: lựa chọn dưới đây</li>
                         <ol>
-                            <li>強め</li>
-                            <li>やや強め</li>
-                            <li>普通</li>
-                            <li>やや弱め</li>
-                            <li>弱め</li>
-                            <li>その都度確認してほしい</li>
+                            <li>強め</br>Mạnh</li>
+                            <li>やや強め</br>Mạnh vừa phải</li>
+                            <li>普通</br>Thường</li>
+                            <li>やや弱め</br>Nhẹ vừa phải</li>
+                            <li>弱め</br>Nhẹ</li>
+                            <li>その都度確認してほしい</br>Muốn được xác nhận khi thực hiện</li>
                         </ol>
-                        <li>今までの美容室で気になったこと：複数選択</li>
+                        <li>今までの美容室で気になったこと：複数選択</br>Những điểm có từng thắc mắc ở thẩm mĩ viện trước đây: lựa chọn nhiều</li>
                         <ol>
-                            <li>仕上がり</li>
-                            <li>技術</li>
-                            <li>接客</li>
-                            <li>施術時間</li>
-                            <li>店内の清潔さ</li>
-                            <li>その他：テキスト</li>
+                            <li>仕上がり</br>Hoàn thành</li>
+                            <li>技術</br>Kĩ thuật</li>
+                            <li>接客</br>Tiếp khách</li>
+                            <li>施術時間</br>Thời gian liệu pháp</li>
+                            <li>店内の清潔さ</br>Mức sạch sẽ trong tiệm</li>
+                            <li>その他：テキスト</br>Khác: nhập text</li>
                         </ol>
-                        <li>なりたいイメージ：複数選択</li>
+                        <li>なりたいイメージ：複数選択</br>Mong muốn trở nên ra sao: chọn nhiều</li>
                         <ol>
-                            <li>かわいい</li>
-                            <li>ナチュラル</li>
-                            <li>モテ、愛され</li>
-                            <li>かっこいい</li>
-                            <li>大人っぽく</li>
-                            <li>似合うようにしてほしい</li>
+                            <li>かわいい</br>Đáng yêu</li>
+                            <li>ナチュラル</br>Tự nhiên</li>
+                            <li>モテ、愛され</br>Được chú ý, yêu mến</li>
+                            <li>かっこいい</br>Cool, ngầu</li>
+                            <li>大人っぽく</br>Trưởng thành hơn</li>
+                            <li>似合うようにしてほしい</br>Muốn (kiểu tóc) trông hợp với mình</li>
                         </ol>
-                        <li>髪についての悩み：複数選択</li>
+                        <li>髪についての悩み：複数選択</br>Điểm lo lắng về mái tóc bản thân</li>
                         <ol>
-                            <li>ダメージ</li>
-                            <li>カラーの色持ち</li>
-                            <li>パーマの持ち</li>
-                            <li>クセや広がり</li>
-                            <li>ボリュームが出にくい</li>
-                            <li>ホームケアの仕方</li>
-                            <li>スタイリングの仕方</li>
-                            <li>その他：テキスト</li>
+                            <li>ダメージ</br>Hư tổn</li>
+                            <li>カラーの色持ち</br>Lên màu</li>
+                            <li>パーマの持ち</br>Giữ nếp uốn</li>
+                            <li>クセや広がり</br>Gãy, chẻ</li>
+                            <li>ボリュームが出にくい</br>Lượng tóc trông không đủ nhiều</li>
+                            <li>ホームケアの仕方</br>Cách dưỡng tóc ở nhà</li>
+                            <li>スタイリングの仕方</br>Các tạo kiểu</li>
+                            <li>その他：テキスト</br>Khác: nhập text</li>
                         </ol>
-                        <li>当日の仕上がりイメージ：テキスト</li>
-                        <li>施術履歴：データベースから</li>
-                        <li>過去半年以内に行った施術：複数選択</li>
+                        <li>当日の仕上がりイメージ：テキスト</br>Mong muốn hoàn thành ra sao: nhập text</li>
+                        <li>施術履歴：データベースから</br>Lịch sử các liệu pháp: lấy từ DB</li>
+                        <li>過去半年以内に行った施術：複数選択</br>Các liệu pháp thực hiện trong nửa năm trở lại: chọn nhiều</li>
                         <ol>
-                            <li>黒染め</li>
-                            <li>ブリーチ</li>
-                            <li>縮毛矯正</li>
-                            <li>デジタルパーマ</li>
-                            <li>ストレートパーマ</li>
+                            <li>黒染め</br>Nhuộm đen</li>
+                            <li>ブリーチ</br>Tẩy</li>
+                            <li>縮毛矯正</br>Duỗi</li>
+                            <li>デジタルパーマ</br>Uốn kĩ thuật số</li>
+                            <li>ストレートパーマ</br>Uốn thẳng</li>
                         </ol>
-                        <li>希望の仕上がり時間：単一選択</li>
+                        <li>希望の仕上がり時間：単一選択</br>Mong muốn thời gian hoàn thành: chọn một</li>
                         <ol>
-                            <li>急いでいる：時刻（希望終了時刻）</li>
-                            <li>急いでいないが希望がある：時刻（希望終了時刻）</li>
-                            <li>特にない</li>
+                            <li>急いでいる：時刻（希望終了時刻）</br>Gấp: giờ (giờ kết thúc)</li>
+                            <li>急いでいないが希望がある：時刻（希望終了時刻）</br>Không vội nhưng có giới hạn giờ: giờ (giờ kết thúc)</li>
+                            <li>特にない</br>Không vội</li>
                         </ol>
-                        <li>施術メニュー以外に興味のあるメニュー：複数選択</li>
+                        <li>施術メニュー以外に興味のあるメニュー：複数選択</br>Có quan tâm menu khác ngoài Liệu pháp đang dùng: chọn nhiều</li>
                         <ol>
-                            <li>カット</li>
-                            <li>カラー</li>
-                            <li>インナーカラー</li>
-                            <li>パーマ</li>
-                            <li>デジタルパーマ</li>
-                            <li>縮毛矯正</li>
-                            <li>トリートメント</li>
-                            <li>ヘッドスパ</li>
-                            <li>眉カット</li>
-                            <li>その他：テキスト</li>
+                            <li>カット</br>Cắt</li>
+                            <li>カラー</br>Nhuộm</li>
+                            <li>インナーカラー</br>Nhuộm trong</br></li>
+                            <li>パーマ</br>Uốn</li>
+                            <li>デジタルパーマ</br>Uốn kĩ thuật số</li>
+                            <li>縮毛矯正</br>Duỗi</br></li>
+                            <li>トリートメント</br>Dưỡng</li>
+                            <li>ヘッドスパ</br>Hấp</li>
+                            <li>眉カット</br>Tỉa lông mày</li>
+                            <li>その他：テキスト</br>Khác: nhập text</li>
                         </ol>
-                        <li>おすすめ商品の紹介を希望するか：単一選択</li>
+                        <li>おすすめ商品の紹介を希望するか：単一選択</br>Có muốn được giới thiệu thêm sản phẩm không</li>
                         <ol>
-                            <li>はい</li>
-                            <li>いいえ</li>
+                            <li>はい</br>Có</li>
+                            <li>いいえ</br>Không</li>
                         </ol>
-                        <li>自宅でのヘアケアについて：単一選択</li>
+                        <li>自宅でのヘアケアについて：単一選択</br>Chăm sóc tóc tại nhà: chọn một</li>
                         <ol>
-                            <li>サロンで購入したもの</li>
-                            <li>市販のもの</li>
-                            <li>特にしていない</li>
+                            <li>サロンで購入したもの</br>Bằng sản phẩm mua từ salon</li>
+                            <li>市販のもの</br>Bằng sản phẩm mua ngoài</li>
+                            <li>特にしていない</br>Không làm gì</li>
                         </ol>
-                        <li>利用しているSNS：複数選択</li>
+                        <li>利用しているSNS：複数選択</br>Đang dùng SNS: chọn nhiều</li>
                         <ol>
                             <li>Instagram</li>
                             <li>Twitter</li>
@@ -349,23 +349,23 @@
                             <li>Facebook</li>
                             <li>YouTube</li>
                             <li>Clubhouse</li>
-                            <li>その他：テキスト</li>
+                            <li>その他：テキスト</br>Khác: nhập text</li>
                         </ol>
-                        <li>その他の要望：テキストエリア</li>
-                        <li>管理用メモ：テキストエリア</li>
+                        <li>その他の要望：テキストエリア</br>Mong muốn khác: khung nhập text</li>
+                        <li>管理用メモ：テキストエリア</br>Note quản lý: khung nhập text</li>
                     </ul>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>⑤</th>
-            <td>スタートに戻る</td>
-            <td>ボタン</td>
+            <td>Quay lại với màn khởi động</td>
+            <td>Button</td>
             <td>
                 <ul>
-                    <li>タップ時は以下の処理を行う</li>
+                    <li>Khi bấm vào thì thực hiện xử lý sau</li>
                     <ul>
-                        <li>ホーム画面に遷移する</li>
+                        <li>Quay trở lại màn hình khởi động (Home)</li>
                     </ul>
                 </ul>
             </td>
