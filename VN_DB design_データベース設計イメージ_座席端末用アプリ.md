@@ -57,7 +57,7 @@ erDiagram
 
 "Thủ thuật" {
     id string PK
-    treatment_id string FK "ID Thủ thuật"
+    treatment_id string FK "ID Liệu pháp"
     menu_id string FK "ID Menu"
     order integer "Thứ tự"
     started_at timestamp "Ngày giờ bắt đầu thủ thuật"
