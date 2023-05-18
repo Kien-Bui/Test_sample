@@ -90,6 +90,7 @@ erDiagram
 |--\|{|one or many|
 |--o{|zero or many|
 
+```mermaid
 sequenceDiagram
 actor General Director/Technical Manager/General Manager
 actor Comtor
