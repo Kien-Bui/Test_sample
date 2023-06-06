@@ -33,7 +33,7 @@
     <tbody>
         <tr>
             <th>①</th>
-            <td>Hiển thị tên các Liệu pháp</td>
+            <td>Hiển thị tên khách hàng</td>
             <td>Hiển thị</td>
             <td>Thể hiện đang không đọc thông tin nào</td>
         </tr>
