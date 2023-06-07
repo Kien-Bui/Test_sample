@@ -183,7 +183,7 @@
                         <li>Ghi thời gian bắt đầu Thủ thuật vào DB</li>
                         <li>Đọc thông tin schedule Liệu pháp (list thủ thuật) từ DB bằng ID Khách hàng hoặc bằng ID Liệu pháp, chuyển sang màn hình Liệu pháp đang thực hiện theo đúng thông tin đó</li>
                     </ul>
-                    <li>Trong trường hợp chưa tạo schedule cho Liệu pháp (chưa có Thủ thuật), hiển thị nội dung「カウンセリング待機中」</li>
+                    <li>Trong trường hợp chưa tạo schedule cho Liệu pháp (chưa có Thủ thuật), hiển thị nội dung「カウンセリングを始める」</li>
                 </ul>
             </td>
         </tr>
