@@ -1,3 +1,11 @@
+<div class="hidden">
+
+#kaoiri #ジャスティス
+
+</div>
+
+## ER Diagram
+
 ```mermaid
 erDiagram
 
@@ -79,3 +87,14 @@ erDiagram
     finished_at timestamp "Ngày giờ kết thúc thời gian chờ"
 }
 ```
+
+## Legend
+
+|Kí hiệu|Ý nghĩa|
+|:--:|:--|
+|--\||one|
+|--{|many|
+|--\|\||one and only one|
+|--o\||zero or one|
+|--\|{|one or many|
+|--o{|zero or many|
