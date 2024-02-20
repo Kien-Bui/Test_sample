@@ -17,7 +17,7 @@ erDiagram
 "Thủ thuật" ||--|| "Menu": "Thủ thuật ||--|| Menu"
 "Thủ thuật" ||--|{ "Phụ trách": "Thủ thuật ||--|{ Phụ trách"
 "Phụ trách" ||--|| "Staff": "Phụ trách ||--|| Staff"
-"Liệu pháp" ||--o{"Thời gian chờ Thủ thuật"
+"Liệu pháp" ||--o{"Thời gian chờ Thủ thuật": "Liệu pháp ||--o{ Thời gian chờ Thủ thuật"
 
 "Hội viên" {
     id string PK
