@@ -1,30 +1,30 @@
-# コードファイル名
+# Tên code file
 main.py
 
 
-## ディレクトリ構造
-以下のようなディレクトリ構造を作成してください：
+## Cấu trúc directory
+Hãy tạo cấu trúc directory như sau:
 
 
 ```sh
-任意のフォルダ名 (MAIN_PATH)/
+Tên folder bất kì (MAIN_PATH)/
 ┣ correct_imgs/
-┃ ┣ 任意の企画フォルダ名 (CORRECT_FOLDER)/
-┃ ┃ ┣ グループ名_アーティスト名/
-┃ ┃ ┃ ┗ 任意の画像のファイル名.png / .jpg / .tiff / .tif
+┃ ┣ Tên folder dự án bất kì (CORRECT_FOLDER)/
+┃ ┃ ┣ Tên group_tên họa sĩ/
+┃ ┃ ┃ ┗ Tên file bất kì.png / .jpg / .tiff / .tif
 ┃ ┗ name_master.xlsx
 ┣ src/
 ┃ ┣ main.py
 ┃ ┗ ipaexg.ttf
-┣ 任意の校正を行うデザイン画像が入ったフォルダ名 (INPUT_FOLDER)/
-┃ ┗ 任意の画像のファイル名.png / .jpg / .tiff / .tif
+┣ Tên bất kì cho folder chứa ảnh cần hiệu đính (INPUT_FOLDER)/
+┃ ┗ Tên file tùy ý.png / .jpg / .tiff / .tif
 ```
 
 
-### 各ディレクトリの説明
-- `correct_imgs/`: 正解画像が格納されているディレクトリです。このフォルダの下には各企画フォルダが存在し、その中にグループ名_アーティスト名としたフォルダが含まれます。画像ファイルはpng, jpg, tiff, tif形式で保存してください。
- - `任意の企画フォルダ名 (CORRECT_FOLDER)/`: 各企画ごとのフォルダです。
-   - `グループ名_アーティスト名/`: 各グループのアーティストごとのフォルダです。作成方法は[folder.py](#グループ名_アーティスト名の自動作成:folderpy)を参照してください。
+### Giải thích từng directory
+- `correct_imgs/`: Directory chứa các ảnh đúng. Dưới directory này là folder của các dự án, dưới đó nữa là các folder `tên group`_`tên họa sĩ`. Các file ảnh cần lưu trữ dưới dạng png, jpg, tiff, tif.
+ - `Tên folder dự án bất kì (CORRECT_FOLDER)/`: Folder theo từng dự án.
+   - `Tên group_tên họa sĩ/`: Folder theo từng họa sĩ của group. Về cách tạo, hãy tham khảo [folder.py](#グループ名_アーティスト名の自動作成:folderpy)を参照してください。
      - `任意の画像のファイル名.png / .jpg / .tiff / .tif`: 画像ファイルです。
  - `name_master.xlsx`: 正解画像が持つ文字列を整理したものです。
 
