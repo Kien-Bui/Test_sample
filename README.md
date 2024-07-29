@@ -29,20 +29,20 @@ Tên folder bất kì (MAIN_PATH)/
  - `name_master.xlsx`: Tập hợp sắp xếp string của ảnh đúng.
 
 
-- `src/`: プログラムのソースコードが格納されています。
- - `main.py`: メインのスクリプトファイルです。
- - `ipaexg.ttf`: OCRでの読み取った文字を画像に書くためのフォントファイルです。
+- `src/`: Directory lưu trữ source code.
+ - `main.py`: Main script file.
+ - `ipaexg.ttf`: File chứa font để viết nội dung text đọc được từ OCR.
 
 
-- `任意の校正を行うデザイン画像が入ったフォルダ名 (INPUT_FOLDER)/`: 校正を行うデザイン画像が格納されています。画像ファイルはpng, jpg, tiff, tif形式で保存してください。
+- `Tên bất kì cho folder chứa ảnh cần hiệu đính (INPUT_FOLDER)/`: Directory chứa file ảnh cần hiệu đính. Các file ảnh cần lưu trữ dưới dạng png, jpg, tiff, tif.
 
 
-### ディレクトリ例
-例えばデスクトップにおいたシステムで「居酒屋3弾」という企画名で「2024年6月」というフォルダに格納した画像を校正する場合は、以下のようになります：
+### Ví dụ directory
+Ví dụ như khi cần hiệu đính file ảnh lưu trong folder `2024年6月` nằm trong dự án `居酒屋3弾` trên hệ thống đặt ở desktop, cấu trúc sẽ như sau:
 
 
 ```sh
-/Users/(ユーザー名)/Desktop/
+/Users/(tên user)/Desktop/
 ┣ correct_imgs/
 ┃ ┗ 居酒屋3弾/
 ┃ ┃ ┣ EXILE_EXILE ATSUSHI/
@@ -55,13 +55,13 @@ Tên folder bất kì (MAIN_PATH)/
 ┃ ┣ main.py
 ┃ ┗ ipaexg.ttf
 ┣ 2024年6月/
-┃ ┗ 任意の画像のファイル名.png / .jpg / .tiff / .tif
+┃ ┗ Tên file ảnh tùy ý.png / .jpg / .tiff / .tif
 ```
 
 
-## 使用方法
-1. 必要な[ディレクトリ構造](#ディレクトリ構造)を作成し、対応する画像ファイルを配置します。
-2. `MAIN_PATH`ディレクトリに移動します。
+## Cách sử dụng
+1. Tạo [cấu trúc directory](#ディレクトリ構造) cần thiết, và đặt vào các file ảnh cần đối ứng.
+2. Di chuyển directory tới `MAIN_PATH`.
   ```sh
   cd /path/to/MAIN_PATH
 3. 環境構築のために必要な依存関係をインストールします。
