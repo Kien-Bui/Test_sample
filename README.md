@@ -17,16 +17,16 @@ Tên folder bất kì (MAIN_PATH)/
 ┃ ┣ main.py
 ┃ ┗ ipaexg.ttf
 ┣ Tên bất kì cho folder chứa ảnh cần hiệu đính (INPUT_FOLDER)/
-┃ ┗ Tên file tùy ý.png / .jpg / .tiff / .tif
+┃ ┗ Tên file ảnh tùy ý.png / .jpg / .tiff / .tif
 ```
 
 
 ### Giải thích từng directory
 - `correct_imgs/`: Directory chứa các ảnh đúng. Dưới directory này là folder của các dự án, dưới đó nữa là các folder `tên group`_`tên họa sĩ`. Các file ảnh cần lưu trữ dưới dạng png, jpg, tiff, tif.
  - `Tên folder dự án bất kì (CORRECT_FOLDER)/`: Folder theo từng dự án.
-   - `Tên group_tên họa sĩ/`: Folder theo từng họa sĩ của group. Về cách tạo, hãy tham khảo [folder.py](#グループ名_アーティスト名の自動作成:folderpy)を参照してください。
-     - `任意の画像のファイル名.png / .jpg / .tiff / .tif`: 画像ファイルです。
- - `name_master.xlsx`: 正解画像が持つ文字列を整理したものです。
+   - `Tên group_tên họa sĩ/`: Folder theo từng họa sĩ của group. Về cách tạo, hãy tham khảo file [folder.py](#グループ名_アーティスト名の自動作成:folderpy).
+     - `Tên file ảnh tùy ý.png / .jpg / .tiff / .tif`: Các file ảnh.
+ - `name_master.xlsx`: Tập hợp sắp xếp string của ảnh đúng.
 
 
 - `src/`: プログラムのソースコードが格納されています。
