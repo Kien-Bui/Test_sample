@@ -64,10 +64,12 @@ Ví dụ như khi cần hiệu đính file ảnh lưu trong folder `2024年6月`
 2. Di chuyển directory tới `MAIN_PATH`.
   ```sh
   cd /path/to/MAIN_PATH
-3. 環境構築のために必要な依存関係をインストールします。
+  ```
+3. Install các dependencies cần thiết để dựng môi trường.
   ```sh
   pip install -r requirements.txt
-4. `main.py`を実行して画像の校正を行います。
+  ```
+4. Chạy `main.py` và hiệu đính file ảnh.
   ```sh
   python src/main.py \
    --main_path /your/main/path \
@@ -83,13 +85,13 @@ Ví dụ như khi cần hiệu đính file ảnh lưu trong folder `2024年6月`
    ```
 
 
-### 引数の説明
-- --main_path: メインのフォルダパス（デフォルト: './'）
-- --input_folder: 校正をするデザイン画像のフォルダ名（必須）
-- --design: 校正を行うデザインがアニメかどうか（デフォルト: 'anime'）
-- --correct_imgs: 正解画像が保存されているフォルダ名（デフォルト: 'correct_folder'）
-- --correct_prj: 正解画像の企画名の指定（必須）
-- --src: ソースフォルダのパス（デフォルト: 'src'）
+### Giải thích các parameter
+- --main_path: Path tới main folder (default: './')
+- --input_folder: Tên folder chứa ảnh design cần hiệu đính (required)
+- --design: File ảnh cần hiệu đính có file anime hay không (defalut: 'anime')
+- --correct_imgs: Tên folder chứa ảnh đúng (default: 'correct_folder')
+- --correct_prj: Chỉ định tên dự án của ảnh đúng (required)
+- --src: Path tới folder source (default: 'src')
 - --threshold_value: ピクセルのズレの閾値（デフォルト: 5）
 - --shift_range: 輪郭のズレの許容範囲（デフォルト: 2）
 - --alert_thresh: アラートの閾値（デフォルト: 99.94）
