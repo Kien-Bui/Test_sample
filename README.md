@@ -92,14 +92,14 @@ Ví dụ như khi cần hiệu đính file ảnh lưu trong folder `2024年6月`
 - --correct_imgs: Tên folder chứa ảnh đúng (default: 'correct_folder')
 - --correct_prj: Chỉ định tên dự án của ảnh đúng (required)
 - --src: Path tới folder source (default: 'src')
-- --threshold_value: ピクセルのズレの閾値（デフォルト: 5）
-- --shift_range: 輪郭のズレの許容範囲（デフォルト: 2）
-- --alert_thresh: アラートの閾値（デフォルト: 99.94）
-- --hit: 特徴マッチング時のヒット値（デフォルト: 50）
+- --threshold_value: Ngưỡng giá trị pixel sai lệch (default: 5)
+- --shift_range: Dung sai độ lệch đường viền (default: 2)
+- --alert_thresh: Ngưỡng giá trị alert (default: 99.94)
+- --hit: Giá trị hit trong quá trình matching đặc điểm (default: 50)
 
 
-#### 実行例
-- デフォルト設定を使用して実行する例：
+#### Ví dụ chạy
+- Ví dụ setting default và chạy
 
 
 ```sh
@@ -109,11 +109,11 @@ python src/main.py \
 ```
 
 
-- すべての引数を指定して実行する例：
+- Ví dụ setting tất cả parameter
 
 
 ```sh
-コードをコピーする
+Copy code
 python src/main.py \
 --main_path /home/user/project \
 --input_folder /data/images \
@@ -130,32 +130,32 @@ python src/main.py \
 
 
 
-# コードファイル名
+# Tên file code
 folder.py
 
 
-## 処理の説明
-このスクリプトは、以下の処理を行います：
+## Giải thích xử lý
+Phần script này thực hiện xử lý như sau
 
 
-必要なライブラリのインポートと警告の無視設定。
-引数を解析するためのargparseモジュールの設定。
-指定されたmain_pathとcorrect_imgsパスからname_master.xlsxを読み込みます。
-name_master.xlsxから`「グループ名1_アーティスト名」`のフォルダを作成します。
-<blockquote>name_master.xlsxの列名（１行目）に「グループ名1」と「アーティスト名」が存在する必要があります。</blockquote>
+Import các library cần thiết và bỏ qua các cảnh báo nhất định.
+Setting module argparse để phân tích các parameter.
+Đọc, loading name_master.xlsx từ path của main_path và correct_imgs được chỉ định.
+Tạo folder `Tên group_tên họa six` từ name_master.xlsx
+<blockquote>Hàng tên các cột (line 1) của name_master.xlsx cần phải có bao gồm「グループ名1」và「アーティスト名」.</blockquote>
 
 
-## 引数の説明
---main_path: メインのフォルダパス（デフォルト: './'）
---input_folder: 入力フォルダのパス（必須）
+## Giải thích parameter
+--main_path: folder path chính (default: './')
+--input_folder: Path của folder nhập (required)
 
 
-## 実行方法
-スクリプトを実行するには、以下のコマンドを使用します：
+## Cách thực hiện chạy
+Để chạy script thì cần sử dụng command dưới đây
 
 
 ```sh
 python src/folder.py --main_path /your/main/path --input_folder /your/input/folder
 ```
-これにより、指定されたmain_pathとcorrect_imgsのパスに基づいてフォルダ構造が作成されます。
+Theo đấy, sẽ tạo cấu trúc folder dựa trên path được chỉ định của main_path và correct_imgs.
 
